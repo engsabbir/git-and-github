@@ -3,9 +3,10 @@
 }
 body{
     /* text-align: center; */
-    width: 1330px;
+    max-width:  1350px;
     /* background-color: red; */
     /* border: 5px solid brown; */
+    padding: 0px 300px 0px 150px;
 }
 #heading{
     text-align: center;
@@ -15,15 +16,33 @@ body{
     text-align: justify;
     justify-content: center;
 }
-.table-of-content a{
+a{
+    color: black;
+    text-decoration: underline;
+}
+a:hover{
+    color: blueviolet;
+    text-decoration: none;
+}
+/* .table-of-content a{
     color: black;
     text-decoration: underline;
 }
 .table-of-content a:hover{
     color: blueviolet;
     text-decoration: none;
-}
+} */
 /* differences-between-git-and-github */
-.differences-between-git-and-github{
+/* .differences-between-git-and-github a{
+    color: black;
+    text-decoration: underline;
+}
+.differences-between-git-and-github a:hover{
+    color: blueviolet;
+    text-decoration: none;
+} */
 
+/* how-to-start-using-git-and-github */
+.how-to-start-using-git-and-github img{
+    margin-left: 50px;
 }
