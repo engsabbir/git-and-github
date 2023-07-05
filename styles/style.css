@@ -46,3 +46,8 @@ a:hover{
 .how-to-start-using-git-and-github img{
     margin-left: 50px;
 }
+.git-home-page{
+    width: 85%;
+    /* width: 50px; */
+}
+/* .create-a-gitHub-account */
