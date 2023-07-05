@@ -95,5 +95,46 @@
         <br>
         <h3>You will be asked to authenticate your GitHub account, so just sign in with the same email to confirm.</h3>
     </section>
+    <br>
+
+    <section>
+        <h2 class="edit-code-locally">Step 4 - Create and edit your code files locally</h2>
+        <img src="images/vs-code.png" alt="">
+    </section>
+    <br>
+
+    <section>
+        <h2>Step 5 - Create a repository on GitHub</h2>
+        <h3>Click the + sign at the top right corner to create a new repository. Repositories are like your code folders online.</h3>
+        <br>
+        <img class="new-repo-1" src="images/new-repo.png" alt="">
+        <br><br>
+        <h3>You will be prompted to this page:</h3>
+        <br>
+        <img src="images/new-repo 2.png" alt="">
+        <br>
+        <img src="images/new-repo 3.png" alt="">
+    </section>
+    <br>
+
+    <section>
+        <h2>Step 6 - Push your local code to GitHub</h2>
+        <h3>You can use the code editor built-in terminal to use Git to push your code to GitHub. Click ctrl + shift + ' to open the terminal in VSCode. <br><br> Input the commands below one after the other in your terminal. Press the Enter key to proceed after every input.</h3>
+        <img src="images/vs-code2.png" alt="">
+        <h3 class="github-command"><span>‌echo "# sample-code" >> README.md</span> <br><br>
+            <span>git init</span> <br><br>
+            <span>git add .</span> <br><br>
+            <span>git commit -m "first commit"</span><br><br>
+            <span>git branch -M main</span><br><br>
+            <span>it remote add origin https://github.com/engsabbir/sample-code.git</span><br><br>
+            <span>g git push -u origin main</span><br>
+        </h3>
+        <br>
+        <h3>Note that we have <span class="highlighted"> git add README.md</span>   in the repository on GitHub. But here we have <span class="highlighted">git add .</span>, which is to let Git add all our code files instead of the <span class="highlighted">README.md</span> file which will be created by <span class="highlighted"><span class="highlighted"></span></span>. So if you have created other files in your local folder, you need to use <span class="highlighted">git add .</span> to add all files.</h3>
+        <br>
+        <h3>Take note that <span class="highlighted">git remote add origin</span> <a href="https://github.com/engsabbir/git-and-github"><span class="highlighted">https://github.com/engsabbir/git-and-github</span></a> will contain the link to your own repository and it will have have the name of your GitHub account.</h3>
+    </section>
 </body>
 </html>
+
+<span class="highlighted"></span>

@@ -50,4 +50,14 @@ a:hover{
     width: 85%;
     /* width: 50px; */
 }
-/* .create-a-gitHub-account */
+.new-repo-1{
+    margin-left: 150px;
+}
+.github-command span{
+    background-color: rgb(236, 229, 229);
+    padding: 7px;
+}
+.highlighted{
+    color: rgb(179, 129, 96);
+    font-weight: 800;
+}
